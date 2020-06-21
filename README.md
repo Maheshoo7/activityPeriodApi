@@ -10,6 +10,7 @@ clone the repo to local machine
 
 ```
 $ git clone https://github.com/Maheshoo7/activityPeriodApi.git
+
 $ cd activityPeriodApi/
 ```
 Install the required packages
@@ -23,15 +24,17 @@ I have used postgresql, so you might have to setup postgresql or you can change 
 Migrate the database
 
 ```
-python manage.py makemigrations
-python manage.py migrate
+$ python manage.py makemigrations
+$ python manage.py migrate
 ```
 Runserver
 
 ```
-python manage.py runserver
+$ python manage.py runserver
 ```
-open the link http://127.0.0.1:8000/user/ and add the below JSON data
+open the link http://127.0.0.1:8000/user/ to see the result
+
+To add data copy the below Json data and paste in the input area, or can also be added using Postman
 
 ```
 {
