@@ -26,7 +26,7 @@ SECRET_KEY = 'y(op_j*pl8nk!_^t3sigvtujwg*s%awz+)+qkr5-#d5_ww)zua'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['activityperiodapi.herokuapp.com']
+ALLOWED_HOSTS = ['useractivityapi.herokuapp.com']
 
 
 # Application definition
@@ -79,25 +79,23 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Myproject.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'userdb',
-        'USER': 'postgres',
-        'PASSWORD': 'qwerty123',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'userdb',
+#         'USER': 'postgres',
+#         'PASSWORD': 'qwerty123',
+#         'HOST': 'localhost',
+#     }
+# }
 
 
 
