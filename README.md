@@ -10,6 +10,7 @@ clone the repo to local machine
 
 ```
 $ git clone https://github.com/Maheshoo7/activityPeriodApi.git
+$ cd activityPeriodApi/
 ```
 Install the required packages
 
