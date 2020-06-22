@@ -38,7 +38,7 @@ To add data copy the below Json data and paste in the input area, or can also be
 
 ```
 {
-    "real_name": "The Red Album",
+    "real_name": "Joe Casey",
     "tz": "Asia/Dubai",
     "activity_periods" : [
         {"start_time": "2020-06-21T13:30:42.744148Z", "end_time": "2020-06-21T13:30:42.744191Z"},
@@ -47,3 +47,5 @@ To add data copy the below Json data and paste in the input area, or can also be
     ]
 }
 ```
+
+Here is the link to the project deployed on heroku https://activityperiodapp.herokuapp.com/user/
