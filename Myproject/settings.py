@@ -25,8 +25,8 @@ SECRET_KEY = 'y(op_j*pl8nk!_^t3sigvtujwg*s%awz+)+qkr5-#d5_ww)zua'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['useractivityapi.herokuapp.com']
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['activityperiodapp.herokuapp.com']
+ALLOWED_HOSTS = [] 
 
 
 
